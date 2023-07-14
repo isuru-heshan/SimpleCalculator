@@ -18,6 +18,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
             android:textSize="50sp"
             android:text="@string/answer" />
 
@@ -30,6 +31,7 @@
                 android:id="@+id/inputFieldValue"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textSize="20sp"
                 android:hint="@string/hint"
                 android:textColorHint="#000000" />
         </LinearLayout>
